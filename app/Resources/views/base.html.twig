@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Sistema" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="no-index, no-follow" />
+
+        <title>Lanches</title>
+
+        {#<script src="http://code.jquery.com/jquery-latest.min.js"></script>#}
+
+        <!-- Google Fonts - Open Sans -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <!-- Google Fonts - Montserrat -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- Google Fonts - Lora -->
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <!-- ======================== -->
+
+        {% block stylesheets %}
+            {% stylesheets output='css/compressed.css' filter='?uglifycss'
+          'bundles/app/css/frontend/bootstrap/css/bootstrap.min.css'
+          'bundles/app/css/frontend/hover.css'
+          'bundles/app/css/frontend/fonts/styles.css'
+          'bundles/app/css/frontend/animate.css'
+          'bundles/app/css/frontend/owl.carousel.css'
+          'bundles/app/css/frontend/owl.theme.css'
+          'bundles/app/css/frontend/styles.css'
+          'bundles/app/css/frontend/responsive.css'
+          'bundles/app/css/backend/datepicker3.css'
+          'bundles/app/css/backend/daterangepicker-bs3.css'
+          'bundles/app/css/vendor/select2/select2.css'
+            %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="print,screen" />
+            <link rel="stylesheet" href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+            {% endstylesheets %}
+        {% endblock %}
+
+        <!-- Create HTML 5 elements and fix media queries on Internet Explorer -->
+        <!--[if IE]>
+        <script src="assets/hacks/respond.min.js"></script>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        {% if app.environment == "prod" %}
+        {% endif  %}
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% block body %}{% endblock %}
+
+    {% block javascripts %}
+        {% javascripts output='js/compressed-frontend.js' filter='?uglifyjs2'
+              '@AppBundle/Resources/public/js/vendor/jquery.js'
+              '@AppBundle/Resources/public/js/frontend/bootstrap/bootstrap.js'
+              '@AppBundle/Resources/public/js/frontend/owl.carousel.js'
+              '@AppBundle/Resources/public/js/frontend/jquery.easing.min.js'
+              '@AppBundle/Resources/public/js/frontend/wow.min.js'
+              '@AppBundle/Resources/public/js/frontend/jquery.maskedinput.js'
+              '@AppBundle/Resources/public/js/vendor/jquery-maskedinput/jquery.maskedinput.js'
+              '@AppBundle/Resources/public/js/vendor/select2/select2.full.js'
+              '@AppBundle/Resources/public/js/vendor/select2/i18n/pt-BR.js'
+              '@AppBundle/Resources/public/js/frontend/jquery.counterup.min.js'
+              '@AppBundle/Resources/public/js/frontend/waypoints.min.js'
+              '@AppBundle/Resources/public/js/frontend/scrolling-nav.js'
+              '@FOSJsRoutingBundle/Resources/public/js/router.js'
+              'js/fos_js_routes.js'
+              '@AppBundle/Resources/public/js/frontend/main.js'
+        %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+
+
+    {% endblock %}
+
+</body>
+</html>

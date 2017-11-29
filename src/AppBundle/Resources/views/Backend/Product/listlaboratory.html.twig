@@ -1,0 +1,81 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Laboratórios</h1>
+        </section>
+        <section id="search" class="mg-t30 mg-b30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
+                        <form method='get' action='{{ path('search_laboratory') }}'>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Busque laboratórios" value="" name="query" id="s">
+                                <span class="input-group-btn">
+                                    <button type="" class="btn btn-success btn-group"> Buscar</i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Laboratórios</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body no-padding">
+                                <div class="row">
+                                {% for laboracy in laboracys %}
+                                    {% for aff in affiliated %}
+                                        {% if aff.laboratory.id == laboracy.id %}
+
+                                            <div class='col-md-3 mg-t30'>
+                                                <a href='{{ path('backend_product_laboratory_list',{'id': laboracy.id}) }}'>
+                                                    <div class='col-md-12 text-center'>
+                                                        <h1 class="title-laboratory">{{ laboracy.name }}</h1>
+                                                    </div>
+                                                    <div class='col-md-12'>
+                                                        <img src='/sistema/web/uploads/laboratory/avatar/{{laboracy.avatar}}' class='fullimg'>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+
+                                    {% if loop.index is divisibleby(4) and not loop.last %}
+                                        </div>
+                                        <div class="row">
+                                        {% set loop = loop|merge({'index': 0}) %}
+                                    {% elseif loop.last %}
+                                        </div>
+                                    {% else %}
+                                        {% set loop = loop|merge({'index': loop.index + 1}) %}
+                                    {% endif %}
+                                    
+                                {% endfor %}
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

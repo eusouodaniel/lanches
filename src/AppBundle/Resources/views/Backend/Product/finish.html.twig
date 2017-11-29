@@ -1,0 +1,91 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Produtos</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Produtos</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        {#
+                                        <th>
+                                            <input type="checkbox" name="" id="check-all"/>
+                                        </th>
+                                        #}
+                                        <th>Nome</th>
+                                        <th>Disponibilidade</th>
+                                        <th>Preço</th>
+                                        <th>Quantidade</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for laboracy in laboracys %}
+                                        <td>{{ laboracy.laboratory.name }}</td>
+                                        {% for product in products %}
+                                            <tr>
+                                                {#<td>
+                                                    
+                                                    {% if product.active %}
+                                                        <input type="checkbox" name="deleteProduct" value="{{ product.id }}" id="checkItem"/>
+                                                    {% else %}
+                                                        <input type="checkbox" name="deleteProduct" value="{{ product.id }}" id="checkItem" class='hidden'>
+                                                    {% endif %}
+                                                </td>#}
+                                                {% if laboracy.product.id == product.id %}
+                                                <td>{{ product.name }}</td>
+                                                <td>
+                                                    {% if product.active %}
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    {% else %}
+                                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.costvalue }}
+                                                </td>
+                                                <td>
+                                                    <input type='text' name='quantidade'>
+                                                </td>
+                                                <td>
+                                                    {% if product.active %}
+                                                        <a href="{{ path('backend_product_shop_add',{'id': product.id}) }}" class="btn btn-success btn-group">Adicionar ao carrinho</a>
+                                                    {% else %}
+                                                        <a href="{{ path('backend_product_shop_add',{'id': product.id}) }}" class="btn btn-success btn-group" disabled="disabled">Adicionar ao carrinho</a>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

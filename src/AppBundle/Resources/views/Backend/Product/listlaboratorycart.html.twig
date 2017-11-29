@@ -1,0 +1,184 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Seus produtos</h1>
+        </section>
+        {% if products == null %}
+            <section class="content">
+                <div class="row ">
+                    <div class="col-xs-12 bs-50">
+                        <div class="btn-toolbar" role="toolbar" aria-label="...">
+                            <a href="{{ path('carrinho_show') }}" class="btn btn-success btn-group">Voltar para carrinho</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+        {% if products != null %}
+            <!-- Main content -->
+            <section class="content">
+                <div class="row ">
+                    <div class="col-xs-12 bs-50">
+                        <div class="btn-toolbar" role="toolbar" aria-label="...">
+                            <a href="{{ path('carrinho_show') }}" class="btn btn-success btn-group">Voltar para carrinho</a>
+                            <a href="javascript:void(0);" class="btn btn-danger btn-group delete_item_products">Remover itens</a>
+                        </div>
+
+                        <form method="post" id="form-delete" action="/sistema/web/backend/product/shop/remove/laboratory">
+                            <input type="hidden" name="id" id="id-item" value=""/>
+                        </form>
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">Listagem de Produtos</h3>
+                            </div><!-- /.box-header -->
+                            <div class="box-body table-responsive no-padding">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <input type="checkbox" name="" id="check-all"/>
+                                            </th>
+                                            <th>Nome</th>
+                                            <th>Preço(Unitário)</th>
+                                            <th>Quantidade comprada</th>
+                                            <th>Valor total</th>
+                                            <th>Imagem - Lab.</th>
+                                            <th>Laboratório</th>
+                                            {#
+                                              <th>Ações</th>  
+                                            #}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                          {% for product in products %}
+                                              <tr>
+                                                  <td class="custom">
+                                                <div class="checkboxFive">
+                                                    <input type="checkbox" name="deleteProduct" value="{{ product.id }}" id="checkItem-{{ product.id }}">
+                                                    <label for="checkItem-{{ product.id }}"></label>
+                                                </div>
+                                                  </td>
+                                                  <td>{{ product.product.product.name }}</td>
+                                                  <td>{{ product.price }}</td>
+                                                  <td>
+                                                    {{ product.quantidade }} - 
+                                                    <a onclick="feedItem({{ product.id }});" class="btn btn-success btn-group alter_quant">Alterar quantidade</a>
+                                                  </td>
+                                                  <td>R$ {{ product.price * product.quantidade }}</td>
+                                                  <td>
+                                                    <img src='/sistema/web/uploads/laboratory/avatar/{{product.product.laboratory.avatar}}' class='imgproduct' >
+                                                  </td>
+                                                  <td>{{ product.product.laboratory.name }}</td>
+                                                  {#
+                                                  <td>
+                                                      <a href="{{ path('backend_product_shop_remove',{'id': product.id}) }}" class="btn btn-success btn-group">Remover do carrinho</a>
+                                                  </td>
+                                                  #}
+                                              </tr>
+                                          {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div><!-- /.box-body -->
+                        </div><!-- /.box -->
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="list">Laboratório</h2><br><br>
+                        </div>
+                        {% for shop in shops %}
+                            <div class="col-md-4 col-sm-3 col-xs-12 nopadding-p mg-b30" id="list-laboratory">
+                                <div class="col-md-12 col-sm-12 col-xs-12 box-lab">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-center mg-b15">
+                                        <h1>{{ shop.laboratory.name }}</h1>
+                                    </div>
+                                    <!--/.name-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <b>Pedido mínimo: </b>{{ shop.laboratory.minimunvalue }}
+                                    </div>
+                                    <!--/.min pay-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <b>Total de compras com esse laboratório: </b>R$ {{ shop.price }}<br>
+                                        {% if shop.price > shop.laboratory.minimunvalue %}
+                                    </div>
+                                    <!--/.total-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <b>Status de compra com esse laboratório:</b> OK<br><br>
+                                        {% else %}
+                                          <b>Valor abaixo do valor mínimo. Falta </b>R$ {{ shop.laboratory.minimunvalue - shop.price }} <b> para conseguir finalizar sua compra.</b><br><br>
+                                        {% endif %}
+                                    </div>
+                                    {% set verify = null %}
+                                {% if shop.price > shop.laboratory.minimunvalue %}
+
+                                {% else %}
+                                    {% set verify = "Impossível" %}
+                                {% endif %}
+                                <div class="col-md-12 col-sm-12 col-xs-12 mg-b20">
+                                    <b>Requisitos para faturamento: </b>{{ shop.laboratory.billingRequirements }}<br>
+                                </div>
+                            {% if verify == null %}
+                                <center>
+                                <a href="{{ path('backend_product_laboratory_list',{'id': shop.laboratory.id}) }}" class="btn btn-success btn-group">Continuar comprando</a><br><br>
+                                <a href="{{ path('backend_product_shop_cancel',{'id': shop.laboratory.id}) }}" class="btn btn-danger btn-group">Desistir da compra</a>
+                                <a href="{{ path('backend_product_laboratory_prefinish',{'id': shop.laboratory.id}) }}" class="btn btn-danger btn-group">Finalizar compra</a></center>
+                            {% else %}
+                                <center>
+                                <a href="{{ path('backend_product_laboratory_list',{'id': shop.laboratory.id}) }}" class="btn btn-success btn-group">Continuar comprando</a><br><br>
+                                <a href="{{ path('backend_product_shop_cancel',{'id': shop.laboratory.id}) }}" class="btn btn-danger btn-group">Desistir da compra</a>
+                                <a href="{{ path('backend_product_laboratory_prefinish',{'id': shop.laboratory.id}) }}" class="btn btn-danger btn-group" disabled='true'>Finalizar compra</a></center>
+                            {% endif %}
+                                </div>
+                            </div>
+                            <!--/.laboratory-->
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="row mg-t20">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                        <div class="col-md-12">
+                            <div class="box">
+                                <h1 class="total">Valor total a ser pago: <span class="price">R$ {{ total }}</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.total laboratory-->
+                </div>
+                <!--/.row-->
+                
+            </section><!-- /.content -->
+        {% else %}
+            <!-- Main content -->
+            <section class="content">
+                <br>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">Não possui nenhum produto desse laboratório adicionado ao seu carrinho</h3>
+                            </div><!-- /.box-header -->
+                        </div><!-- /.box -->
+                    </div>
+                </div>
+            </section><!-- /.content -->
+        {% endif %}
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+        '@AppBundle/Resources/public/js/custom/Product/quant.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex, nofollow">
+        <title>{% block title %}Lanches{% endblock %}</title>
+        <!-- Google Fonts - Open Sans -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <!-- Google Fonts - Montserrat -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- Google Fonts - Lora -->
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <!-- ======================== -->
+        {% block stylesheets %}
+                {% stylesheets output='css/compressed_login.css' filter='?uglifycss'
+                    'bundles/app/css/backend/bootstrap.css'
+                    'bundles/app/css/backend/font-awesome.css'
+                    'bundles/app/css/backend/style-admin.css'
+                %}
+                <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="print,screen" />
+                {% endstylesheets %}
+        {% endblock %}
+    </head>
+
+<body>
+    {% block body %}
+
+    {% endblock %}
+
+    {% block javascripts %}
+        {% javascripts output='js/compressed_login.js' filter='?uglifyjs2'
+            '@AppBundle/Resources/public/js/vendor/jquery.js'
+            '@AppBundle/Resources/public/js/vendor/bootstrap.min.js'
+        %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    {% endblock %}
+</body>
+</html>

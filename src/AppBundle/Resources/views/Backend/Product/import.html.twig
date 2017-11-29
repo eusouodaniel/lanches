@@ -1,0 +1,38 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+<aside class="right-side">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>Importar Produtos</h1>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row ">
+          <form class="" action="{{ path('backend_product_import') }}" method="post" {{ form_enctype(form) }}>
+
+              {% block messages %}
+                  {{ parent() }}
+                  {{ form_errors(form) }}
+              {% endblock %}
+              <div class="col-xs-12 col-sm-6 col-md-6 bs-50">
+                <label>Arquivo</label>
+                {{ form_errors(form.file) }}
+                {{ form_widget(form.file, {'attr': {'class': 'form-control', 'placeholder': 'Escolha um arquivo'}}) }}
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 bs-50">
+                <label>Laboratório</label>
+                {{ form_errors(form.laboratory) }}
+                {{ form_widget(form.laboratory, {'attr': {'class': 'form-control', 'placeholder': 'Escolha o laboratório'}}) }}
+              </div>
+
+
+              <div class="col-xs-1 bs-50">
+                  <button type="submit" class="btn btn-primary mg-t30">Importar</button>
+              </div>
+          </form>
+        </div>
+    </section><!-- /.content -->
+</aside><!-- /.right-side -->
+{% endblock %}

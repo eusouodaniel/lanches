@@ -1,0 +1,38 @@
+{{ form_widget(form.photo) }}
+<div class="box-body">
+    <div class="form-group">
+        {{ form_errors(form.name) }}
+        <label for="product_name">Nome</label>
+        {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {{ form_errors(form.photoTemp) }}
+            <label for="product_avatarTemp">Imagem(<b>Tamanho aceito: 80 x 80</b>)</label>
+            {{ form_widget(form.photoTemp, {'attr': {'class': 'form-control'}}) }}
+
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {% if product.photo != null %}
+                <img src="/sistema/web/uploads/product/photo/{{product.photo}}" class="img-responsive center-img imgproduct" alt="{{ product.photo }}" title="{{ product.photo }}">
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            
+                {{ form_errors(form.active) }}
+                <div class="checkboxFive">
+                                {{ form_widget(form.active, {'attr': {'class': 'form-control', 'id': 'product_active'}}) }}
+
+                    <label for="product_active"></label>
+                    <span class="title-label" style="
+    position: relative;
+    margin-left: 51px;
+    top: -32px;">Ativo</span>
+                </div>
+
+        </div>
+    </div>
+</div><!-- /.box-body -->

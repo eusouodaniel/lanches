@@ -1,0 +1,17 @@
+<div class="box-body">
+    <div class="form-group">
+        {{ form_errors(form.state) }}
+        <label for="region_state">Estado</label>
+        {{ form_widget(form.state, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_errors(form.city) }}
+        <label for="region_city">Cidade</label>
+        {{ form_widget(form.city, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_errors(form.name) }}
+        <label for="region_name">Nome</label>
+        {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+</div><!-- /.box-body -->

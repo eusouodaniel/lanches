@@ -1,0 +1,22 @@
+{{ form_widget(form.archive) }}
+<div class="box-body">
+    <div class="form-group">
+        {{ form_errors(form.name) }}
+        <label for="cotacoes_name">Nome</label>
+        {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="row">
+        {% if app.user.discr != 'agent' %}
+            <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                {{ form_errors(form.archiveTemp) }}
+                <label for="cotacoes_archiveTemp">Arquivo(<b>XLS</b>)</label>
+                {{ form_widget(form.archiveTemp, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        {% endif %}
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {% if cotacoes.archive != null %}
+                <a href='http://localhost:8000/uploads/perfumaria/cotacoes/{{ cotacoes.archive }}' class='btn btn-success'>Visualizar</a>
+            {% endif %}
+        </div>
+    </div>
+</div><!-- /.box-body -->

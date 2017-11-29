@@ -1,0 +1,115 @@
+{% if app.user != null %}
+<aside class="left-side sidebar-offcanvas">
+    <!-- sidebar: style can be found in sidebar.less -->
+    {% set route = app.request.attributes.get('_route') %}
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left info" >
+                <p>Bem vindo, {{ app.user.username }}</p>
+            </div>
+        </div>
+        {#{{ app.user.discr }}#}
+         <!-- VISÃO ADMINISTRADOR -->
+        <ul class="sidebar-menu">
+            {% if app.user.discr != 'affiliated' %}
+            <li class="treeview">
+              <a href="#">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <span>Usuários</span>
+                  <i class="fa pull-right fa-angle-left"></i>
+              </a>
+              <ul class="treeview-menu" style="display: none;">
+                <li>
+                    <a href="{{path('backend_user')}}">
+                        <i class="fa fa-angle-double-right"></i><span>Administradores</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{path('backend_affiliated')}}">
+                        <i class="fa fa-angle-double-right"></i><span>Clientes</span>
+                    </a>
+                </li>
+              </ul>
+            </li>
+
+            {% endif %}
+            {#
+            {% if app.user.discr == 'affiliated' %}
+                <li>
+                    <a href="{{path('backend_cotacoes_index')}}">
+                        <i class="fa fa-map" aria-hidden="true"></i>
+                        <span>Cotações</span>
+                    </a>
+                </li>
+            {% endif %}
+            #}
+            <li class="treeview">
+              <a href="#">
+                  <i class="fa fa-plus-square" aria-hidden="true"></i>
+                  <span>Lanches</span>
+                  <i class="fa pull-right fa-angle-left"></i>
+              </a>
+              <ul class="treeview-menu" style="display: none;">
+                {% if app.user.discr == 'affiliated' %}
+                    <li>
+                        <a href="{{path('backend_product_shop')}}">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            <span>Comprar</span>
+                        </a>
+                    </li>
+                {% endif %}
+                {% if app.user.discr != 'affiliated' %}
+                <li>
+                    <a href="{{path('backend_product_index')}}">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        <span>Cadastro</span>
+                    </a>
+                </li>
+                {% endif %}
+              </ul>
+            </li>
+            {% if is_granted("ROLE_SUPER_ADMIN") %}
+
+            {% else %}
+            <li>
+                <a href="{{path('carrinho_show')}}">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span>Carrinho</span>
+                </a>
+            </li>
+            {% endif %}
+            {% if is_granted("ROLE_SUPER_ADMIN") %}
+                <li>
+                    <a href="{{path('pedidos_show')}}">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span>Todos os pedidos
+                        </span>
+                    </a>
+                </li>
+            {% else %}
+                <li>
+                    <a href="{{path('pedidos_show')}}">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span>Meus pedidos
+                        </span>
+                    </a>
+                </li>
+            {% endif %}
+              <ul class="treeview-menu" style="display: none;">
+                {% if app.user.discr == 'affiliated' %}
+                    <li>
+                        <a href="{{path('backend_product_shop')}}">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            <span>Comprar lanche</span>
+                        </a>
+                    </li>
+                {% endif %}
+              </ul>
+            </li>
+        </ul>
+
+    </section>
+    <!-- /.sidebar -->
+</aside>
+{% endif %}

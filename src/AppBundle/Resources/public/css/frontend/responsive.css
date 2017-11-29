@@ -1,0 +1,486 @@
+/**
+* Eduardo Farah
+*
+* Standard layout for My Website
+*
+* This style sheet describes the
+* structure and the main components
+* about Hydraulic interface
+*
+* @project Eduardo Farah
+* @version 1.0
+* @package layout
+* @author Verticis WebStudio
+* @copyright 2016 Verticis WebStudio.
+*
+*
+* @fontdef  Montserrat
+*/
+
+/**
+*
+* Responsive Structure
+*
+*
+* Global structure
+**/
+@media screen and (min-width: 992px){
+    section{
+        padding: 50px 0;
+    }
+}
+
+
+/*
+*
+*
+* @Navbar structure
+*
+*
+*/
+@media screen and (min-width: 992px){
+    .navbar-default{
+        padding: 0;
+    }
+    .navbar-default .navbar-nav>li{
+        margin-right: 15px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-weight: 700;
+    }
+    .btn-login, .navbar-default .btn-primary{
+        margin-top: -10px;
+        padding: 10px 24px;
+    }
+    /*TopNavCollapse*/
+     .navbar-default.top-nav-collapse{
+        margin-top:0;
+        border-bottom: 0px;
+        padding:0;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .navbar-default .container{
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+}
+/**** @EndNavbar structure ***/
+
+/*
+*
+*
+* @Carousel structure
+*
+*
+*/
+@media screen and (min-width: 992px) and (max-width: 1500px){
+    .carousel-caption {
+        bottom: 14%;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .carousel-caption {
+        bottom: 25%;
+    }
+}
+@media screen and (min-width: 992px){
+    .carousel {
+        height: 80%;
+    }
+    .carousel-indicators{
+        text-align: right;
+    }
+
+    h1.title-slider {
+        font-size: 52px;
+        text-align: left;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    p.text-slider {
+        margin-top: 35px;
+        font-size: 16px;
+        text-align: left;
+    }
+    .btn-see{
+        float: left;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        padding: 10px 24px;
+        margin-top:15px;
+    }
+    .btn-start{
+        padding: 14px 24px !important;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .carousel {
+        height: 80%;
+    }
+}
+
+/**** @EndCarouselCaption Text structure ***/
+
+/*
+*
+*
+* @Search structure
+*
+*
+*/
+@media screen and (min-width: 992px){
+    #search .input-group{
+        margin-top:10px;
+    }
+}
+
+/**** @Endsearch Text structure ***/
+
+/*
+*
+*
+* @Popular Videos structure
+*
+*
+*/
+@media screen and (min-width: 992px){
+    #popular-videos  span, #ebooks  span {
+        display: inline-block;
+          position: relative;
+    }
+    #popular-videos span:before, #popular-videos span:after, #ebooks span:before, #ebooks span:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        border-top: 1px solid #f8cac4;
+        top:15px;
+        width: 120%;
+    }
+    #popular-videos span:before, #ebooks span:before {
+        right: 100%;
+        margin-right: 35px;
+    }
+    #popular-videos span:after, #ebooks span:after {
+        left: 100%;
+        margin-left:35px;
+    }
+    #popular-videos .box, #dashboard .box, #ebooks .box{
+        text-align: left;
+    }
+    #popular-videos .btn-see, #ebooks .btn-see{
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        padding: 10px 24px;
+        margin-top:15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .owl-prev{
+        float: left;
+        top: -97px;
+        position: relative;
+    }
+    .owl-next{
+        float: right;
+        top: -97px;
+        position: relative;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .owl-prev{
+        float: left;
+        top: -77px;
+        left:-35px;
+        position: relative;
+    }
+    .owl-prev img{
+        width: 18px;
+    }
+    .owl-next{
+        float: right;
+        top: -77px;
+        right: -35px;
+        position: relative;
+    }
+    .owl-next img{
+        width: 18px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .owl-prev{
+        float: left;
+        top: 7px;
+        left:0;
+        position: relative;
+    }
+    .owl-prev img{
+        width: 18px;
+    }
+    .owl-next{
+        float: right;
+        top: 7px;
+        right: 0;
+        position: relative;
+    }
+    .owl-next img{
+        width: 18px;
+    }
+}
+@media screen and (max-width: 560px){
+    #always .col-xs-12 .custom{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px){
+    #dashboard{
+        text-align: center;
+    }
+    #dashboard img{
+        margin: 0 auto !important
+    }
+    h1.black{
+        font-size: 23px;
+        text-align: center;
+    }
+    #welcome h1.white {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+/**** @EndAlways Text structure ***/
+
+/*
+*
+*
+* @Footer structure
+*
+*
+*/
+@media screen and (min-width:767px){
+    h1.title-footer{
+        text-align: left;
+    }
+    footer hr{
+        margin: 0 !important;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (min-width: 1199px){
+    footer ul li a, footer p a {
+        color: #8c8c87;
+        font-size:13px;
+    }
+}
+/**** @EndEvaluation Text structure ***/
+
+/*
+*
+*
+* @Structure Media Queries (TOP)
+*
+*
+*/
+
+
+
+/** Iphone 6 Plus in portrait & landscape **/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    .carousel-caption {
+        bottom: 15%;
+        right: 10%;
+        left: 10%;
+    }
+    h1.title-header {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h2.title-header {
+        font-size: 14px;
+    }
+
+}
+
+/** Iphone 6 in portrait & landscape **/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .carousel-caption {
+        bottom: 15%;
+        right: 10%;
+        left: 10%;
+    }
+    h1.title-header {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h2.title-header {
+        font-size: 14px;
+    }
+}
+
+
+/** Nexus 6P in portrait & landscape **/
+@media only screen and (min-device-width : 411px) and (max-device-width : 773px) {
+    .carousel{
+        height: 60%;
+    }
+    .carousel-caption {
+        bottom: 20%;
+        right: 10%;
+        left: 10%;
+    }
+    h1.title-header {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    h2.title-header {
+        font-size: 15px;
+        line-height: 17px;
+    }
+}
+/** Nexus 6P in landscape **/
+@media only screen and (min-device-width : 411px) and (max-device-width : 773px) and (orientation : landscape) {
+    .carousel{
+        height: 100%;
+    }
+    h1.title-header {
+        font-size: 22px;
+    }
+}
+
+/** Iphone 5 & 5S in portrait & landscape **/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    .carousel-caption {
+        bottom: 10%;
+        right: 10%;
+        left: 10%;
+    }
+    h1.title-header {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    h2.title-header {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .carousel {
+        height: 85%;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+    .carousel {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 320px){
+    #welcome h1.white {
+        font-size: 23px;
+    }
+    #newsletter .input-group {
+        display: block;
+    }
+    #newsletter .form-control-register {
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+    #newsletter .input-group-btn:last-child>.btn{
+        border-radius: 4px;
+    }
+    h1.large {
+        font-size: 19px
+    }
+    p.register {
+        font-size: 13px;
+    }
+    h1.small {
+        font-size: 17px
+    }
+    h1.title-video {
+        font-size: 16px;
+    }
+    h1.white {
+        font-size: 18px;
+    }
+    h1.title-slider {
+        font-size: 26px;
+    }
+    p.text-slider {
+        font-size: 13px;
+    }
+    h1.black {
+        font-size: 21px;
+    }
+}
+/** Ipad in portrait & landscape **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .carousel{
+        height: 60%;
+    }
+    .carousel-caption{
+        bottom: 25%;
+        right:15%;
+        left: 15%;
+    }
+    #dashboard h1.black, #description-video h1.black, #single-curso h1.black  {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    h1.title-video {
+        font-size: 12px;
+    }
+    p.description-video {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #welcome h1.white {
+        font-size: 27px;
+    }
+    h1.white {
+        font-size: 19px;
+    }
+    #search .input-group{
+        margin-top: 10px;
+    }
+    #popular-videos .mg-t80, #ebooks .mg-t80{
+        margin-top: 30px;
+    }
+    .owl-next {
+        right: -16px;
+    }
+    .owl-prev {
+        left: -16px;
+    }
+    h1.black {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .carousel-caption {
+        bottom: 8%;
+        right: 15%;
+        left: 15%;
+    }
+    h1.title-slider {
+        font-size: 39px;
+    }
+}
+@media screen and (max-width:992px){
+    #player iframe{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    #single-video {
+        background: #fff url('../../bundles/app/img/frontend/bg-course.png') repeat-x;
+    }
+}

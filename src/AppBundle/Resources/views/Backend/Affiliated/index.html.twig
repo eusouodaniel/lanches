@@ -1,0 +1,83 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body -%}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Associados</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row ">
+                <div class="col-xs-12 bs-50">
+                    <a href="{{ path('backend_affiliated_new') }}" class="btn btn-success">Novo</a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-tile">
+                        <div class="panel-body pn pl20 p5">
+                            <div class="col-sm-6 col-md-4">
+                                <h2 class="mt15 lh15">
+                                    <span class="counter"><b class="ng-binding">{{entities|length}}</b></span>
+                                    <span class="text-muted custom-h2"> associados(s)</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Associados</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Email - Usuário</th>
+                                        <th>Telefone</th>
+                                        <th>Celular</th>
+                                        <th>Status</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for entity in entities %}
+                                        <tr>
+                                            <td>{{ entity.fullName }}</td>
+                                            <td>{{ entity.email }}</td>
+                                            <td>{{ entity.phone }}</td>
+                                            <td>{{ entity.celphone }}</td>
+                                            <td>
+                                                {% if entity.status == "Ativo" %}
+                                                    <label class="label label-success">Ativo</label>
+                                                {% else %}
+                                                    <label class="label label-success">Inativo</label>
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                <a href="{{ path('backend_affiliated_edit', { 'id': entity.id }) }}" class="btn btn-primary">Editar</a>
+                                                {% if entity.status == "Ativo" %}
+                                                    <a href="{{ path('backend_affiliated_status', { 'id': entity.id }) }}" class="btn btn-warning">Desativar</a>
+                                                {% else %}
+                                                    <a href="{{ path('backend_affiliated_status', { 'id': entity.id }) }}" class="btn btn-success">Ativar</a>
+                                                {% endif %}
+                                                <a href="javascript:void(0);" data-url="{{ path('backend_affiliated_delete', { 'id': entity.id }) }}" class="btn btn-danger delete_item">Excluir</a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}

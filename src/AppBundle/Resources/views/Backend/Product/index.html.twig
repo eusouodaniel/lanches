@@ -1,0 +1,90 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Produtos</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row ">
+                <div class="col-xs-12 bs-50">
+
+                    <div class="btn-toolbar" role="toolbar" aria-label="...">
+                        <a href="{{ path('backend_product_new') }}" class="btn btn-success btn-group">Novo</a>
+                        <a href="javascript:void(0);" class="btn btn-danger btn-group delete_item_products">Excluir</a>
+                    </div>
+
+                    <form method="post" id="form-delete" action="/sistema/web/backend/product/delete">
+                        <input type="hidden" name="id" id="id-item" value=""/>
+                    </form>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Produtos</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="checkboxFive">
+                                                <input type="checkbox" name="" id="check-all"/>
+                                                <label for="check-all"></label>
+                                            </div>
+                                        </th>
+                                        <th>Nome</th>
+                                        <th>Ativo</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for product in products %}
+                                        <tr>
+
+                                            <td class="custom">
+                                                <div class="checkboxFive">
+                                                    <input type="checkbox" name="deleteProduct" value="{{ product.id }}" class='checkItem' id="checkItem-{{ product.id }}">
+                                                    <label for="checkItem-{{ product.id }}"></label>
+                                                </div>
+                                            </td>
+                                            <td>{{ product.name }}</td>
+                                            <td>
+                                                {% if product.active %}
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                {% else %}
+                                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                <a href="{{ path('backend_product_edit', {'id':product.id}) }}" 
+                                                class="btn btn-primary">Editar</a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            {{ knp_pagination_render(products) }}
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

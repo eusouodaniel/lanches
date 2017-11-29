@@ -1,0 +1,133 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Produtos</h1>
+        </section>
+        <section id="search" class="mg-t30 mg-b30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
+                        <form method='get' action='{{ path('search_product') }}'>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Busque produtos" value="" name="query" id="s">
+                                <span class="input-group-btn">
+                                    <button type="" class="btn btn-success btn-group"> Buscar</i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            
+            <br>
+            <div class='box-title' id='listproduct'></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Produtos</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Imagem</th>
+                                        <th>Produto</th>
+                                        <th>Laboratório</th>
+                                        <th>Preço</th>
+                                        <th>Desconto</th>
+                                        <th>Preço final</th>
+                                        <th>Digite a quantidade</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for laboracy in pagination %}
+                                            {% for aff in affiliated %}
+                                        {% if aff.laboratory.id == laboracy.laboratory.id %}
+                                                <input type="hidden" name="shopProduct" value="{{ laboracy.id }}" id="checkItem-{{ laboracy.id }}">
+                                                        <label for="checkItem-{{ laboracy.id }}">
+                                                {#
+                                                <td class="custom">
+                                                    <div class="checkboxFive">
+                                                  		<input type="checkbox" name="shopProduct" value="{{ laboracy.id }}" id="checkItem-{{ laboracy.id }}">
+                                                	  	<label for="checkItem-{{ laboracy.id }}"></label>
+                                                  	</div>
+                                                </td>
+                                                #}
+                                                <td>
+                                                    <a href="/sistema/web/uploads/product/photo/{{laboracy.product.photo}}" data-toggle="lightbox" data-gallery="example-gallery">
+                                                        <img src='/sistema/web/uploads/product/photo/{{laboracy.product.photo}}' class='imgproduct img-fluid' >
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.product.name }}
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.laboratory.name }}
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.factoryvalue }}
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.discountvalue }}
+                                                </td>
+                                                <td>
+                                                    {{ laboracy.costvalue }}
+                                                </td>
+                                                {% set value = 0 %}
+                                                {% for cart in carts %}
+                                                    {% if cart.product.id == laboracy.id %}
+                                                        {% set value = cart.id %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                                <td>
+                                                {% if value == null %}
+                                                    
+                                                        <input type='number' name='quantidade-{{ laboracy.id }}' id='quantidade-{{ laboracy.id }}' placeholder="Quantidade" min="1" max='{{ laboracy.quantidade }}' class='show'>
+                                                    
+                                                {% else %}
+                                                    
+                                                        <input type='number' name='quantidade-{{ laboracy.id }}' id='quantidade-{{ laboracy.id }}' placeholder="Quantidade" min="1" max='{{ laboracy.quantidade }}' disabled='true' class='show'>
+                                                    
+                                                {% endif %}
+                                                </td>
+                                                <td>
+                                                    {% if value != null %}
+                                                        <a onclick="javascript:removecart({{value}},{{ laboracy.id }})" class="btn btn-danger btn-group" id='addtocart-{{ laboracy.id }}'>Remover do carrinho</a>
+                                                    {% else %}
+                                                        <a onclick="javascript:addcart({{laboracy.id}})" class="btn btn-success btn-group" id='addtocart-{{ laboracy.id }}' >Adicionar ao carrinho</a>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            {% endif %}
+                                    {% endfor %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            {{ knp_pagination_render(pagination) }}
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+        '@AppBundle/Resources/public/js/custom/Product/ajax.js'
+        '@AppBundle/Resources/public/js/custom/Product/ajaxremove.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../../../../css/fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../../../../css/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../../../../css/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../../../../css/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../../../../css/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../../../../css/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.br-theme-fontawesome-stars .br-widget {
+  height: 28px;
+  white-space: nowrap;
+}
+.br-theme-fontawesome-stars .br-widget a {
+  font: normal normal normal 18px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  margin-right: 2px;
+}
+.br-theme-fontawesome-stars .br-widget a:after {
+  content: '\f005';
+  color: #dddddd;
+}
+.br-theme-fontawesome-stars .br-widget a.br-active:after {
+  color: #ffdf88;
+}
+.br-theme-fontawesome-stars .br-widget a.br-selected:after {
+  color: #ffdf88;
+}
+.br-theme-fontawesome-stars .br-widget .br-current-rating {
+  display: none;
+}
+@media print {
+  .br-theme-fontawesome-stars .br-widget a:after {
+    content: '\f006';
+    color: black;
+  }
+  .br-theme-fontawesome-stars .br-widget a.br-active:after,
+  .br-theme-fontawesome-stars .br-widget a.br-selected:after {
+    content: '\f005';
+    color: black;
+  }
+}

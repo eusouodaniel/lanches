@@ -1,0 +1,108 @@
+{2016/07/06 19:30:04} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - begin 
+{2016/07/06 19:30:08} [Info] 1 
+{2016/07/06 19:30:08} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - end {1}262DFEFC2525532BB41D1FAF9AC8AF55 
+{2016/07/06 19:33:37} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - begin 
+{2016/07/06 19:33:38} [Info] 1 
+{2016/07/06 19:33:38} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - end {1}5B74F524FEFE887BB4B5AF80ED1F4593 
+{2016/07/06 19:33:39} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - begin 
+{2016/07/06 19:33:40} [Info] 1 
+{2016/07/06 19:33:40} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - end {1}6388716DE3E368ADD44D9FADA0902821 
+{2016/07/11 14:11:11} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'admin@enlevo.com.br',
+)) - begin 
+{2016/07/11 14:11:14} [Info] 1 
+{2016/07/11 14:11:15} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'admin@enlevo.com.br',
+)) - end {1}FEE263DBF6F6BD5994DF5F8300945586 
+{2016/07/11 14:12:01} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - begin 
+{2016/07/11 14:12:02} [Info] 1 
+{2016/07/11 14:12:02} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - end {1}B81D6EA6DEDECDC334A96F9AAA1D0CB4 
+{2016/07/11 14:14:41} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - begin 
+{2016/07/11 14:14:43} [Info] 1 
+{2016/07/11 14:14:43} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - end {1}2DC727EA84845B2BB4D59F93EEE81821 
+{2016/07/11 14:16:24} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - begin 
+{2016/07/11 14:16:25} [Info] 1 
+{2016/07/11 14:16:25} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - end {1}BD3CA580C5C5F865547C2FAE1BE906FC 
+{2016/07/11 15:28:12} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joao.zica@gmail.com',
+)) - begin 
+{2016/07/11 15:28:15} [Info] 1 
+{2016/07/11 15:28:15} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joao.zica@gmail.com',
+)) - end {1}80C4D7EF6C6CF415542FCF9A95454C9D 
+{2016/07/11 15:46:33} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - begin 
+{2016/07/11 15:46:35} [Info] 1 
+{2016/07/11 15:46:35} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - end {1}492A72F5C0C0531334FA2FAE0BE0792A 
+{2016/07/11 17:29:08} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - begin 
+{2016/07/11 17:29:10} [Info] 1 
+{2016/07/11 17:29:10} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'joaozica@gmail.com',
+)) - end {1}340875F90B0BA3A554290FA1EFB81FC8 
+{2016/07/12 11:57:10} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - begin 
+{2016/07/12 11:57:13} [Info] 1 
+{2016/07/12 11:57:13} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'c56424971659921516190@sandbox.pagseguro.com.br',
+)) - end {1}A5187E0384846A3004CA3FB477F71A25 
+{2016/07/12 16:06:00} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'admin@enlevo.com.br',
+)) - begin 
+{2016/07/12 16:06:05} [Info] 1 
+{2016/07/12 16:06:05} [Info] PagSeguroPaymentService.Register(PagSeguroRequest: array (
+  'Reference' => NULL,
+  'SenderEmail' => 'admin@enlevo.com.br',
+)) - end {1}7E20D2F1D6D6100CC4E28F9FE7E8C6D4 

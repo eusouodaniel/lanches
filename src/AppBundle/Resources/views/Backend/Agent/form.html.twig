@@ -1,0 +1,117 @@
+<div class="box-body">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                {{ form_errors(form.first_name) }}
+                <label for="agent_first_name">Nome e Sobrenome</label>
+                {{ form_widget(form.first_name, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+        <!--div class="col-sm-6">
+            <div class="form-group">
+        {{ form_errors(form.last_name) }}
+        <label for="agent_last_name">Sobrenome</label>
+        {{ form_widget(form.last_name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+</div-->
+    </div>
+
+
+    <div class="form-group">
+        {{ form_errors(form.email) }}
+        <label for="agent_email">Email</label>
+        {{ form_widget(form.email, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    {% if not entity.id  %}
+        <div class="form-group">
+            <label for="agent_name">Senha</label>
+            <input type="password" id="agent_plainpassword" name="agent_custom[plainPassword]" maxlength="255" class="form-control" required="required" autocomplete="off">
+        </div>
+    {% else %}
+        <div class="form-group">
+            <label for="agent_name">Senha</label>
+            <input type="password" id="agent_plainpassword" name="agent_custom[plainPassword]" maxlength="255" class="form-control" autocomplete="off">
+        </div>
+    {% endif %}
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                {{ form_errors(form.celphone) }}
+                <label for="agent_celphone">Celular</label>
+                {{ form_widget(form.celphone, {'attr': {'class': 'form-control telefone'}}) }}
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                {{ form_errors(form.phone) }}
+                <label for="agent_phone">Telefone</label>
+                {{ form_widget(form.phone, {'attr': {'class': 'form-control telefone'}}) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        {{ form_errors(form.perfumery) }}
+                <div class="checkboxFive">
+                                {{ form_widget(form.perfumery, {'attr': {'class': 'form-control', 'id': 'agent_perfumery'}}) }}
+
+                    <label for="agent_perfumery"></label>
+                    <span class="title-label">Atende cotações?</span>
+                </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <label for="agent_agentregions">Regiões</label>
+
+            <table id="regions-table" class="table table-bordered table-striped" data-prototype="{{ _self.prototype_agentregions(form.agentregions.vars.prototype)|e }}" data-index-count="0">
+                {% macro prototype_agentregions(agentregion) %}
+                    <tr class="regions-item">
+                        <td class="col-sm-2">
+                            <a style="margin-top:0 !important;" class="confirm-delete regions-remove-item btn btn-danger" href="javascript:void(0);" data-confirm-title="Botão Delete" data-confirm-text="Confirma Deleção">
+                                <i class="icon-trash">Deletar</i>
+                            </a>
+                        </td>
+                        <td class="col-sm-4">
+                            {{ form_errors(agentregion.region) }}
+                            {{ form_widget(agentregion.region, {'attr':{'class':'select2 region'}}) }}
+                        </td>
+                    </tr>
+                {% endmacro %}
+                <tbody>
+                    {% for agentregion in form.agentregions %}
+                        {{_self.prototype_agentregions(agentregion)}}
+                    {% else %}
+                        {% do form.agentregions.setRendered %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <section class="btn-container glow1"><a id="regions-add" href="javascript:void(0);" class="btn btn-info btn-add pull-right" title="Botão adicionar">Adicionar</a></section>
+        </div>
+    </div>
+    {% if entity.laboratoryagents|length > 0 %}
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <label for="laboratory_agent">Laboratórios Representados</label>
+                <table id="regions-table" class="table table-bordered table-striped" data-prototype="{{ _self.prototype_agentregions(form.agentregions.vars.prototype)|e }}" data-index-count="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for laboratoryagent in entity.laboratoryagents %}
+                            <tr>
+                                <td>{{laboratoryagent.laboratory}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    {% endif %}
+    <br/>
+</div><!-- /.box-body -->

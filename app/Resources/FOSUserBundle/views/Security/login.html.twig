@@ -1,0 +1,56 @@
+{% extends '::base.html.twig' %}
+    {% trans_default_domain 'FOSUserBundle' %}
+
+    {% block body %}
+        <section class="form-box1 login-user" id="login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        {% if error %}
+                    <div>
+                    <!--/.error -->
+                    <section class="alert alert-danger oh m-none">
+                        {#{{ error|trans }}#}
+                        {#{{ error.messageKey|trans(error.messageData, 'security') }}#}
+                        Credenciais inválidas. Verifique o usuário e senha e tente novamente.
+                        <div class="close-btn" data-dismiss="alert">×</div>
+                    </section>
+                    </div>
+                    {% endif %}
+                    </div>
+
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-xs-12 panel-theme nopadding-xs mg-t50xs text-center">
+        
+        <div class="panel-body">
+        <div class="form-box" id="login-box">
+        <div class="header login text-center">
+        <p>Informe seus dados nos campos abaixo:</p>
+        </div>
+        <form action="{{ path("fos_user_security_check") }}" method="post">
+        <div class="body login">
+        <div class="form-group col-md-12 col-sm-12 col-xs-12 nopadding-p">
+        <input class="form-control-login" type="text" id="username" name="_username" placeholder="emaildousuario@email.com" value="{{ last_username }}" required="required" />
+        </div>
+        <div class="form-group col-md-12 col-sm-12 col-xs-12 nopadding-p">
+        <div data-recording-ignore="mask">
+        <input class="form-control-login" type="password" id="password" name="_password" placeholder="Senha" required="required" />
+        </div>
+        </div>
+        </div>
+        <div class="footer login col-md-12 col-sm-12 col-xs-12 text-center nopadding-p">
+        <button type="submit" class="btn btn-start col-md-12 col-sm-12 col-xs-12">Login</button>
+        </div>
+        <div class="footer login col-md-12 col-sm-12 col-xs-12 text-right nopadding">
+        <p><a href="{{ path('fos_user_resetting_request') }}">Não consegue acessar sua conta?</a><br>
+        <a href="{{ path('backend_affiliated_new') }}">Não tem conta? Cadastre-se</a></p>
+        </div>
+        </form>
+        </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+    {% endblock body %}

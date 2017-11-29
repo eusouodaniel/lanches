@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lanches</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+        {% block stylesheets %}
+            {% stylesheets filter='?uglifycss'
+            'bundles/app/css/backend/bootstrap.css'
+            'bundles/app/css/backend/style-admin.css'
+            'bundles/app/css/backend/ionicons.min.css'
+            'bundles/app/css/backend/morris.css'
+            'bundles/app/css/backend/jquery-jvectormap-1.2.2.css'
+            'bundles/app/css/backend/datepicker3.css'
+            'bundles/app/css/backend/daterangepicker-bs3.css'
+            'bundles/app/css/backend/bootstrap3-wysihtml5.min.css'
+            'bundles/app/css/vendor/select2/select2.css'
+            'bundles/app/css/backend/bootstrap-colorpicker.css'
+            %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="print,screen" />
+
+            {% endstylesheets %}
+        {% endblock %}
+    </head>
+    <body class="skin-blue">
+
+        <!-- header logo: style can be found in header.less -->
+        {% block header %}
+            {% include '::Backend/header.html.twig' %}
+        {% endblock %}
+
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+
+            {% block sidebar %}
+                {% include '::Backend/sidebar.html.twig' %}
+            {% endblock %}
+            {% if app.session.flashBag.has('success') %}
+                <div class="alert alert-success" id="alert-dismissable">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    {% for msg in app.session.flashBag.get('success') %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if app.session.flashBag.has('info') %}
+                <div class="alert alert-info" id="alert-dismissable">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    {% for msg in app.session.flashBag.get('info') %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if app.session.flashBag.has('warning') %}
+                <div class="alert alert-warning" id="alert-dismissable">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    {% for msg in app.session.flashBag.get('warning') %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if app.session.flashBag.has('error') %}
+                <div class="alert alert-danger" id="alert-dismissable">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    {% for msg in app.session.flashBag.get('error') %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% block body %}
+                {% include '::Backend/content.html.twig' %}
+            {% endblock %}
+
+
+        </div><!-- ./wrapper -->
+
+        <!-- modal -->
+
+        <div class="modal fade bs-example-modal-sm" id="modal-remove" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Remover Cadastro</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Você deseja remover este(s) cadastro(s)?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-confirm">
+                            <i class="fa fa-trash-o" style="margin-right: 10px;"></i> Remover
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm" id="modal-shop" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Comprar produto</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Você deseja comprar este(s) produtos(s)?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-confirm">
+                            <i class="fa fa-shopping-cart" style="margin-right: 10px;"></i> Comprar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm" id="modal-quant" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Nova Quantidade</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Digite a nova quantidade que deseja para esse produto:</p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type='number' name='quantidade' id='quantidade'><br>
+                        <a onclick="feedbackSendItem();"><button type="button" class="btn btn-primary btn-confirm">
+                            <i class="fa fa-paper-plane" style="margin-right: 10px;"></i> Enviar
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm" id="modal-quant-laboratory" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Nova Quantidade</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Digite a nova quantidade que deseja para esse produto:</p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type='number' name='quantidade1' id='quantidade1'><br>
+                        <a onclick="feedSendItem();"><button type="button" class="btn btn-primary btn-confirm">
+                            <i class="fa fa-paper-plane" style="margin-right: 10px;"></i> Enviar
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% block javascripts %}
+            {% javascripts filter='?uglifyjs2'
+            '@AppBundle/Resources/public/js/vendor/jquery.js'
+            '@AppBundle/Resources/public/js/vendor/bootstrap.min.js'
+            '@AppBundle/Resources/public/js/vendor/jquery-ui.min.js'
+            '@AppBundle/Resources/public/js/vendor/raphael-min.js'
+            '@AppBundle/Resources/public/js/vendor/waypoints.min.js'
+            '@AppBundle/Resources/public/js/vendor/jquery.counterup.min.js'
+            '@AppBundle/Resources/public/js/vendor/sparkline/jquery.sparkline.min.js'
+            '@AppBundle/Resources/public/js/vendor/jvectormap/jquery-jvectormap-1.2.2.min.js'
+            '@AppBundle/Resources/public/js/vendor/jvectormap/jquery-jvectormap-world-mill-en.js'
+            '@AppBundle/Resources/public/js/vendor/jqueryKnob/jquery.knob.js'
+            '@AppBundle/Resources/public/js/vendor/daterangepicker/daterangepicker.js'
+            '@AppBundle/Resources/public/js/vendor/datepicker/bootstrap-datepicker.js'
+            '@AppBundle/Resources/public/js/vendor/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js'
+            '@AppBundle/Resources/public/js/vendor/iCheck/icheck.min.js'
+            '@AppBundle/Resources/public/js/vendor/ckeditor/ckeditor.js'
+            '@AppBundle/Resources/public/js/vendor/select2/select2.full.js'
+            '@AppBundle/Resources/public/js/vendor/select2/i18n/pt-BR.js'
+            '@AppBundle/Resources/public/js/vendor/jquery-mask/jquery.mask.js'
+            '@AppBundle/Resources/public/js/vendor/jquery-maskMoney/jquery.maskMoney.js'
+            '@AppBundle/Resources/public/js/vendor/jquery-maskedinput/jquery.maskedinput.js'
+            '@AppBundle/Resources/public/js/vendor/colorpicker/bootstrap-colorpicker.js'
+            '@AppBundle/Resources/public/js/custom/admin/app.js'
+            '@AppBundle/Resources/public/js/custom/admin/script-backend.js'
+            '@FOSJsRoutingBundle/Resources/public/js/router.js'
+            '@AppBundle/Resources/public/js/vendor/typeahead/typeahead.bundle.min.js'
+            'js/fos_js_routes.js'
+            %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+
+        {% endblock %}
+
+    </body>
+</html>

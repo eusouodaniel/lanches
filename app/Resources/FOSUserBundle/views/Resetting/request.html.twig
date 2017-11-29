@@ -1,0 +1,58 @@
+{% extends '::base.html.twig' %}
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block body %}
+    {% if error is defined %}
+      <div>
+          <section class="alert alert-danger oh m-none">
+              {#{{ error|trans }}#}
+              {{ error.messageKey|trans(error.messageData, 'security') }}
+              <div class="close-btn" data-dismiss="alert">×</div>
+          </section>
+      </div>
+    {% endif %}
+
+    <section class="form-box1 login-user mg-b90" id="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-12 panel-theme nopadding-xs mg-t50xs text-center">
+                    <div class="panel-body reset">
+                        <h1 class="black mg-b30">Redefinir a senha</h1>
+                        <div class="form-box" id="login-box">
+
+
+                            <form action="{{ path('fos_user_resetting_send_email') }}" method="post">
+
+                                {% if invalid_username is defined %}
+                                    Usuário não cadastrado
+                                {% endif %}
+
+                                <div class="body login">
+                                    <div class="form-group col-md-10 col-md-offset-1 col-sm-12 col-xs-12 nopadding-p">
+                                        <input type="text" placeholder="Digite seu email" id="username" name="username" class="form-control" />
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="footer login col-md-12 col-sm-12 col-xs-12 text-center nopadding-p">
+                                    <button type="submit" class="btn btn-register">Redefinir senha</button>
+                                </div>
+                                <!-- -->
+                            </form>
+                            <!-- -->
+                        </div>
+                        <!-- -->
+                    </div>
+                    <!-- -->
+                </div>
+                <!-- -->
+            </div>
+            <!-- -->
+        </div>
+        <!-- -->
+    </section>
+    <!-- -->
+{% endblock body %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}

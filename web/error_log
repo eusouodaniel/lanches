@@ -1,0 +1,523 @@
+[06-Jun-2017 14:45:02 UTC] PHP Fatal error:  Call to a member function getLaboratory() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 606
+[06-Jun-2017 14:46:26 UTC] PHP Fatal error:  Call to a member function getLaboratory() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 606
+[06-Jun-2017 14:50:53 UTC] PHP Fatal error:  Call to a member function getLaboratory() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 606
+[06-Jun-2017 15:03:07 UTC] PHP Fatal error:  Method Proxies\__CG__\AppBundle\Entity\Laboratory::__toString() must not throw an exception in /home/redemais/public_html/sistema/app/cache/dev/classes.php on line 0
+[06-Jun-2017 15:03:43 UTC] PHP Fatal error:  Method Proxies\__CG__\AppBundle\Entity\Laboratory::__toString() must not throw an exception in /home/redemais/public_html/sistema/app/cache/dev/classes.php on line 0
+[06-Jun-2017 16:13:31 UTC] PHP Fatal error:  Call to a member function getLaboratory() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 642
+[06-Jun-2017 16:13:37 UTC] PHP Fatal error:  Call to a member function getLaboratory() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 642
+[06-Jun-2017 16:16:21 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 17:07:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 17:45:23 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 17:45:42 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 17:47:39 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 17:47:53 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:47:54 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:47:55 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:48:13 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:48:15 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:48:17 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:50:03 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:50:04 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:50:06 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:51:52 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:51:54 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:51:56 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 17:59:25 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 18:15:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 19:19:30 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 19:20:29 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 19:21:31 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 19:22:35 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 19:22:45 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[06-Jun-2017 19:27:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 19:33:36 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 19:43:31 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[06-Jun-2017 19:49:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[08-Jun-2017 12:54:57 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[08-Jun-2017 12:55:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[08-Jun-2017 12:56:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[09-Jun-2017 18:22:50 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 605
+[21-Jun-2017 17:46:22 UTC] PHP Fatal error:  Call to a member function getTemplate() on array in /home/redemais/public_html/sistema/vendor/knplabs/knp-paginator-bundle/Twig/Extension/PaginationExtension.php on line 56
+[22-Jun-2017 17:30:14 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require_once(/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594aba4f2744d.php): failed to open stream: No such file or directory' in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php:841
+Stack trace:
+#0 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(841): Symfony\Component\Debug\ErrorHandler->handleError(2, 'require_once(/h...', '/home/redemais/...', 841, Array)
+#1 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(841): appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService()
+#2 /home/redemais/public_html/sistema/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(314): appDevDebugProjectContainer->getDoctrine_Orm_DefaultEntityManagerService()
+#3 /home/redemais/public_html/sistema/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Manag in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 841
+[22-Jun-2017 17:30:14 UTC] PHP Fatal error:  appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService(): Failed opening required '/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594aba4f2744d.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 841
+[22-Jun-2017 17:30:14 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require_once(/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594aba4f2744d.php): failed to open stream: No such file or directory' in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php:841
+Stack trace:
+#0 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(841): Symfony\Component\Debug\ErrorHandler->handleError(2, 'require_once(/h...', '/home/redemais/...', 841, Array)
+#1 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(841): appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService()
+#2 /home/redemais/public_html/sistema/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(314): appDevDebugProjectContainer->getDoctrine_Orm_DefaultEntityManagerService()
+#3 /home/redemais/public_html/sistema/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Manag in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 841
+[22-Jun-2017 17:30:14 UTC] PHP Fatal error:  appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService(): Failed opening required '/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594aba4f2744d.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 841
+[22-Jun-2017 17:46:46 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1025
+[22-Jun-2017 17:48:21 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1025
+[22-Jun-2017 18:04:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1025
+[22-Jun-2017 18:58:50 UTC] PHP Fatal error:  Call to a member function getAgent() on array in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 516
+[22-Jun-2017 19:44:32 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1068
+[22-Jun-2017 19:49:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1068
+[22-Jun-2017 19:49:49 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1068
+[22-Jun-2017 19:53:18 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1068
+[22-Jun-2017 20:06:48 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1067
+[22-Jun-2017 20:14:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1067
+[22-Jun-2017 20:14:32 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1067
+[23-Jun-2017 18:48:53 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[23-Jun-2017 19:08:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1084
+[23-Jun-2017 19:09:59 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1084
+[23-Jun-2017 19:40:03 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:40:04 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:40:05 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:41:03 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:41:05 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:41:12 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:47:23 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require_once(/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594d61f9d3087.php): failed to open stream: No such file or directory' in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php:839
+Stack trace:
+#0 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(839): Symfony\Component\Debug\ErrorHandler->handleError(2, 'require_once(/h...', '/home/redemais/...', 839, Array)
+#1 /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php(839): appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService()
+#2 /home/redemais/public_html/sistema/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(314): appDevDebugProjectContainer->getDoctrine_Orm_DefaultEntityManagerService()
+#3 /home/redemais/public_html/sistema/app/cache/dev/classes.php(7055): Symfony\Component\Depen in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 839
+[23-Jun-2017 19:47:23 UTC] PHP Fatal error:  appDevDebugProjectContainer::getDoctrine_Orm_DefaultEntityManagerService(): Failed opening required '/home/redemais/public_html/sistema/app/cache/dev/jms_diextra/doctrine/EntityManager_594d61f9d3087.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/redemais/public_html/sistema/app/cache/dev/appDevDebugProjectContainer.php on line 839
+[23-Jun-2017 19:49:16 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:49:17 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:51:46 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:51:46 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:51:46 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:53:50 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:53:55 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:58:39 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:58:42 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 19:58:47 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:01:43 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:07:31 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:10:45 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:10:54 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:10:57 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:10:58 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:10:59 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:11:32 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:14:08 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:14:55 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:36:04 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:36:09 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:36:50 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:37:07 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:37:28 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:37:58 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:41:49 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:43:02 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:45:23 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:45:29 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:45:59 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[23-Jun-2017 20:46:49 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[25-Jun-2017 20:01:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[25-Jun-2017 20:22:27 UTC] PHP Fatal error:  Call to undefined method Proxies\__CG__\AppBundle\Entity\ProductLaboratory::getName() in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 450
+[25-Jun-2017 22:40:24 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 14:02:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 14:02:14 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:03:33 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:09:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:10:50 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:12:07 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:14:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:21:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:24:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:27:59 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:28:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:28:17 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:29:26 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:29:34 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:29:42 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:29:50 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:31:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:32:02 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:34:39 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:38:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:38:55 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:43:30 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:44:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:45:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:45:57 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:46:48 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:47:12 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:49:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:49:18 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:49:34 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:49:46 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 712
+[26-Jun-2017 21:50:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 21:52:42 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 21:52:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 21:53:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:05:59 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:25:24 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:31:48 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:45:48 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:47:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:47:49 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:47:56 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:48:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:49:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:49:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:51:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[26-Jun-2017 22:53:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 719
+[27-Jun-2017 09:00:56 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:17:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:18:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:56:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:57:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:58:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:59:45 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 09:59:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 10:00:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 10:00:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 10:02:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 10:03:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 10:03:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 11:05:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[27-Jun-2017 11:05:53 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[27-Jun-2017 11:11:17 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[27-Jun-2017 11:14:44 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[27-Jun-2017 11:14:59 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[27-Jun-2017 11:18:02 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[27-Jun-2017 11:19:54 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[27-Jun-2017 11:20:26 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 1599
+[27-Jun-2017 11:22:57 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[27-Jun-2017 11:36:11 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2516
+[27-Jun-2017 11:36:39 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 11:40:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 12:56:35 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 13:21:46 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 14:06:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 16:55:04 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 17:28:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 18:13:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 18:58:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 19:18:21 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 19:18:53 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 19:19:02 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 19:43:26 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 19:43:42 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[27-Jun-2017 20:42:26 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 21:56:14 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 21:56:21 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[27-Jun-2017 21:56:36 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:04:54 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:05:01 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:05:46 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:08:05 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:08:09 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:09:02 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 398
+[28-Jun-2017 00:14:30 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:19:40 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 00:27:43 UTC] PHP Fatal error:  Call to a member function setValue() on null in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 765
+[28-Jun-2017 11:49:53 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[28-Jun-2017 14:08:00 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[28-Jun-2017 16:48:47 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[28-Jun-2017 18:18:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[28-Jun-2017 19:20:47 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[28-Jun-2017 20:13:13 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[28-Jun-2017 20:46:25 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[28-Jun-2017 22:44:23 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[28-Jun-2017 22:49:18 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[29-Jun-2017 11:35:21 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/IntegerType.php on line 53
+[29-Jun-2017 12:12:28 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[29-Jun-2017 14:26:14 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[29-Jun-2017 14:27:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[29-Jun-2017 14:41:03 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[29-Jun-2017 14:47:32 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[29-Jun-2017 14:48:29 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[29-Jun-2017 14:52:30 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[29-Jun-2017 15:00:33 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[29-Jun-2017 15:39:40 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[29-Jun-2017 20:51:04 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[30-Jun-2017 14:28:50 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 768
+[30-Jun-2017 15:11:35 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[30-Jun-2017 21:23:55 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[01-Jul-2017 14:18:45 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[01-Jul-2017 14:24:57 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[03-Jul-2017 12:21:07 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[03-Jul-2017 12:26:24 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Internal/Hydration/SimpleObjectHydrator.php on line 121
+[03-Jul-2017 12:29:27 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[03-Jul-2017 19:00:42 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[03-Jul-2017 19:40:49 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[03-Jul-2017 20:12:46 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[03-Jul-2017 20:15:49 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[04-Jul-2017 12:36:14 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[04-Jul-2017 13:40:46 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[04-Jul-2017 14:15:34 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[04-Jul-2017 14:24:17 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[04-Jul-2017 17:41:02 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:42:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:43:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:44:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:46:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:46:47 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:47:10 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:48:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:48:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:48:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:49:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 17:49:39 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1086
+[04-Jul-2017 19:39:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[04-Jul-2017 19:39:51 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 725
+[04-Jul-2017 20:16:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[06-Jul-2017 14:39:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[06-Jul-2017 14:44:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[06-Jul-2017 14:45:30 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[07-Jul-2017 15:19:16 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[07-Jul-2017 20:04:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[07-Jul-2017 20:41:23 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[10-Jul-2017 19:17:13 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[11-Jul-2017 14:58:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[11-Jul-2017 14:59:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[11-Jul-2017 15:05:35 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[11-Jul-2017 15:14:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[11-Jul-2017 16:10:35 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[12-Jul-2017 12:02:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[12-Jul-2017 12:03:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[12-Jul-2017 15:57:52 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[12-Jul-2017 16:06:31 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[12-Jul-2017 21:18:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[12-Jul-2017 23:00:51 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[12-Jul-2017 23:03:53 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[13-Jul-2017 13:35:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[13-Jul-2017 13:38:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[13-Jul-2017 13:38:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[13-Jul-2017 13:38:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[13-Jul-2017 17:50:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:50:42 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:50:47 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:51:27 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:52:04 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:52:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:52:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:52:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:53:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:53:35 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:53:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:53:40 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:53:46 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:54:02 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:56:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:56:45 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:57:44 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:57:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:58:34 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:58:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:59:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:59:43 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 17:59:50 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:03:40 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:04:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:04:42 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:04:47 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:09:28 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:09:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:09:35 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:09:42 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:09:54 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:15:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:16:14 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:16:16 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:16:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:16:28 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[13-Jul-2017 18:16:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 3
+[18-Jul-2017 16:13:06 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/IntegerType.php on line 51
+[18-Jul-2017 16:16:08 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 1599
+[18-Jul-2017 16:19:10 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[18-Jul-2017 16:30:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[18-Jul-2017 16:30:06 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[19-Jul-2017 16:26:46 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[19-Jul-2017 19:08:06 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[19-Jul-2017 19:11:09 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[19-Jul-2017 19:14:11 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[19-Jul-2017 21:59:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[20-Jul-2017 12:52:20 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[25-Jul-2017 15:41:24 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[25-Jul-2017 15:54:09 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[26-Jul-2017 14:37:44 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[26-Jul-2017 14:38:33 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[26-Jul-2017 19:00:32 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[26-Jul-2017 19:00:35 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[26-Jul-2017 19:02:15 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[26-Jul-2017 19:03:56 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[26-Jul-2017 19:03:56 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 725
+[26-Jul-2017 19:48:16 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[26-Jul-2017 20:26:47 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 722
+[29-Jul-2017 20:14:34 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 678
+[29-Jul-2017 20:14:36 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[29-Jul-2017 20:14:39 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[29-Jul-2017 20:14:58 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 870
+[31-Jul-2017 14:13:59 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 768
+[02-Aug-2017 17:33:47 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:34:39 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:35:15 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:35:50 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:36:47 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:37:24 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:37:59 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:38:49 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:39:48 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:39:55 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:40:50 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:40:56 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:41:40 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:42:35 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:43:31 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:43:36 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:44:33 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:44:55 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:45:34 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:48:27 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:56:42 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:57:00 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:57:32 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:57:45 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:58:02 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:58:14 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 17:59:52 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:00:04 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:02:37 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:02:56 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:03:09 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:03:23 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:03:43 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:03:56 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:04:15 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:15:26 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:15:40 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:15:52 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:16:22 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:16:36 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:16:36 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:16:54 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:17:01 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 18:17:17 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[02-Aug-2017 21:40:18 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 738
+[02-Aug-2017 21:40:33 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 738
+[03-Aug-2017 20:01:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 738
+[04-Aug-2017 14:33:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 738
+[04-Aug-2017 19:05:24 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php on line 1927
+[08-Aug-2017 00:11:47 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 694
+[08-Aug-2017 12:55:12 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1102
+[08-Aug-2017 13:48:10 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1102
+[09-Aug-2017 13:19:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 738
+[10-Aug-2017 16:22:19 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[10-Aug-2017 16:28:56 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 108
+[11-Aug-2017 15:03:02 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 694
+[14-Aug-2017 17:41:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[14-Aug-2017 19:36:14 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[14-Aug-2017 20:28:02 UTC] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/redemais/public_html/sistema/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2513
+[15-Aug-2017 13:43:31 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 785
+[15-Aug-2017 16:13:14 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[15-Aug-2017 17:44:03 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 695
+[15-Aug-2017 20:14:17 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 695
+[15-Aug-2017 20:15:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 739
+[16-Aug-2017 18:44:17 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 18:44:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 18:45:16 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 18:56:26 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 18:56:50 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:04:35 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:05:10 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:05:47 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:06:23 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:06:57 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:19:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:20:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:21:49 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:22:07 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[16-Aug-2017 19:22:59 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 735
+[17-Aug-2017 15:41:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 781
+[18-Aug-2017 13:49:17 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 873
+[18-Aug-2017 14:08:12 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\Backend\ProductController::laboratoryProductAction() in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 375
+[18-Aug-2017 14:08:40 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\Backend\ProductController::laboratoryProductAction() in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 375
+[18-Aug-2017 20:26:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 851
+[21-Aug-2017 11:10:49 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 851
+[21-Aug-2017 11:11:04 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 851
+[21-Aug-2017 14:11:35 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 941
+[21-Aug-2017 14:14:20 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 941
+[21-Aug-2017 14:18:09 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 941
+[22-Aug-2017 16:45:08 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 942
+[22-Aug-2017 18:55:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Aug-2017 18:55:57 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Aug-2017 18:56:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[23-Aug-2017 11:55:54 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[24-Aug-2017 20:34:45 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[24-Aug-2017 20:34:49 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[24-Aug-2017 20:34:55 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[28-Aug-2017 16:30:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[28-Aug-2017 16:30:55 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[28-Aug-2017 17:24:36 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[29-Aug-2017 13:12:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[01-Sep-2017 15:58:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[01-Sep-2017 17:59:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 117
+[01-Sep-2017 17:59:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 117
+[01-Sep-2017 18:11:02 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 117
+[02-Sep-2017 16:35:06 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[04-Sep-2017 13:30:53 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[04-Sep-2017 13:31:13 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[04-Sep-2017 19:14:55 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[04-Sep-2017 19:15:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[04-Sep-2017 19:16:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:09:36 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:15:30 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:37:38 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:58:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:58:39 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 19:59:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 20:46:02 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 22:35:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[05-Sep-2017 22:35:05 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[05-Sep-2017 22:35:06 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[05-Sep-2017 22:35:24 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[07-Sep-2017 19:49:40 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[07-Sep-2017 20:05:38 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[07-Sep-2017 20:41:14 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 944
+[07-Sep-2017 20:41:24 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 944
+[07-Sep-2017 20:41:28 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 944
+[08-Sep-2017 16:54:52 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[08-Sep-2017 16:54:55 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[08-Sep-2017 16:55:46 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[08-Sep-2017 16:55:46 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 901
+[08-Sep-2017 16:56:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[08-Sep-2017 16:56:09 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 901
+[08-Sep-2017 16:56:22 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[08-Sep-2017 16:56:22 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 901
+[08-Sep-2017 16:56:41 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[08-Sep-2017 16:56:41 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 901
+[08-Sep-2017 16:57:01 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[08-Sep-2017 16:57:01 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 901
+[08-Sep-2017 16:57:14 UTC] PHP Fatal error:  Call to a member function getProduct() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 1046
+[08-Sep-2017 16:58:15 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[11-Sep-2017 13:03:29 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[11-Sep-2017 13:03:45 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[11-Sep-2017 13:04:05 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[11-Sep-2017 13:04:37 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[11-Sep-2017 13:05:25 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[11-Sep-2017 13:26:09 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[11-Sep-2017 21:06:51 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[12-Sep-2017 20:11:07 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[14-Sep-2017 13:42:09 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[14-Sep-2017 13:43:02 UTC] PHP Warning:  unlink(uploads/product/photo/imagempadrao.jpg): No such file or directory in /home/redemais/public_html/sistema/src/AppBundle/Entity/Product.php on line 298
+[14-Sep-2017 19:48:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[15-Sep-2017 22:45:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[15-Sep-2017 22:46:12 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[19-Sep-2017 19:24:28 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 944
+[19-Sep-2017 19:26:25 UTC] PHP Fatal error:  Call to a member function getPrice() on null in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 944
+[19-Sep-2017 20:27:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:27:21 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:27:36 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:27:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:28:08 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:28:25 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[19-Sep-2017 20:28:38 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[20-Sep-2017 12:01:26 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 898
+[20-Sep-2017 18:03:11 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 117
+[20-Sep-2017 18:21:17 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 117
+[22-Sep-2017 16:20:58 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Sep-2017 16:21:12 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Sep-2017 16:21:28 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Sep-2017 16:21:43 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854
+[22-Sep-2017 19:25:18 UTC] PHP Deprecated:  Function split() is deprecated in /home/redemais/public_html/sistema/src/AppBundle/Controller/Backend/ProductController.php on line 854

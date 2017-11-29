@@ -1,0 +1,7 @@
+# This file is auto-generated during the composer install
+parameters:
+    secret: 46985e565f18b640ef221dbc36e1f650a2035574
+    mailer_transport: smtp
+    mailer_host: p3plcpnl0715.prod.phx3.secureserver.net
+    mailer_user: contato@sistema.danielrodriguess.com
+    mailer_password: 74830523

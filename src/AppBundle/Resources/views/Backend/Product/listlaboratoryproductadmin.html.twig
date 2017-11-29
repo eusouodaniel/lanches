@@ -1,0 +1,96 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Produtos</h1>
+        </section>
+        <div id='ok'></div>
+
+        <!-- Main content -->
+        <section class="content">
+            
+            <br>
+            <div class='box-title' id='listproduct'></div>
+            <div class="row ">
+                <div class="col-xs-12 bs-50">
+
+                    <div class="btn-toolbar" role="toolbar" aria-label="...">
+                        <a href="javascript:void(0);" class="btn btn-danger btn-group delete_item_products">Excluir</a>
+                        <a href="javascript:void(0);" data-url="{{ path('backend_product_delete_all_post_admin', { 'laboratory': id } )}}" class="btn btn-warning btn-group delete_all_products">Excluir todos os produtos</a>
+                    </div>
+
+                    <form method="post" id="form-delete" action="{{ path('backend_product_delete_post_admin') }}">
+                        <input type="hidden" name="id" id="id-item" value=""/>
+                        <input type="hidden" name="laboratoryId" id="laboratoryId" value="{{ id }}"/>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Produtos do Laboratório {{ laboratory }}</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="checkboxFive">
+                                                <input type="checkbox" name="" id="check-all"/>
+                                                <label for="check-all"></label>
+                                            </div>
+                                        </th>
+                                        <th>Nome</th>
+                                        <th>Ativo</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                        {% for laboracy in pagination %}
+
+                                            <tr>
+                                                <td class="custom">
+                                                    <div class="checkboxFive">
+                                                        <input type="checkbox" name="deleteProduct" value="{{ laboracy.product.id }}" class='checkItem' id="checkItem-{{ laboracy.product.id }}">
+                                                        <label for="checkItem-{{ laboracy.product.id }}"></label>
+                                                    </div>
+                                                </td>
+                                                <td>{{ laboracy.product.name }}</td>
+                                                <td>
+                                                    {% if laboracy.product.active %}
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    {% else %}
+                                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    <a href="{{ path('backend_product_edit', {'id':laboracy.product.id}) }}" 
+                                                    class="btn btn-primary">Editar</a>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                            </table>
+                            {{ knp_pagination_render(pagination) }}
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+        '@AppBundle/Resources/public/js/custom/Product/ajax.js'
+        '@AppBundle/Resources/public/js/custom/Product/ajaxremove.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

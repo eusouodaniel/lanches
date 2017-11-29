@@ -1,0 +1,67 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body -%}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Cotações</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            {% if app.user.discr != 'agent' %}
+            <div class="row ">
+                <div class="col-xs-12 bs-50">
+                    <a href="{{ path('backend_cotacoes_new') }}" class="btn btn-success">Novo</a>
+                </div>
+            </div>
+            {% endif %}
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-tile">
+                        <div class="panel-body pn pl20 p5">
+                            <div class="col-sm-6 col-md-4">
+                                <h2 class="mt15 lh15">
+                                    <span class="counter"><b class="ng-binding">{{cotacoes|length}}</b></span>
+                                    <span class="text-muted custom-h2"> Cotações</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de Cotações</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for entity in cotacoes %}
+                                        <tr>
+                                            <td>{{ entity.name }}</td>
+                                            <td>
+                                                <a href="{{ path('backend_cotacoes_edit', { 'id': entity.id }) }}" class="btn btn-primary">Editar</a>
+                                                {% if app.user.discr != 'agent' %}
+                                                    <a href="javascript:void(0);" data-url="{{ path('backend_cotacoes_delete', { 'id': entity.id }) }}" class="btn btn-danger delete_item">Excluir</a>
+                                                {% endif %}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}

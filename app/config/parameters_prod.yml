@@ -1,0 +1,10 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: eaeafafafafa
+    database_user: dgrgrgafa
+    database_password: J6mrZ%(!nxiX
+
+    router.request_context.base_url: /app_dev.php
+    app_enviroment_url: "http://dev.rede-mais.com.br"

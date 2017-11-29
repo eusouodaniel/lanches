@@ -1,0 +1,91 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Meus pedidos</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        {% if laboratoryname == null %}
+                            <div class="box-header">
+                                <h3 class="box-title">Listagem de pedidos</h3>
+                            </div><!-- /.box-header -->
+                        {% else %}
+                            <div class="box-header">
+                                <h3 class="box-title">Listagem de pedidos</h3>
+                            </div><!-- /.box-header -->
+                        {% endif %}
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        {#
+                                        <th>
+                                            <input type="checkbox" name="" id="check-all"/>
+                                        </th>
+                                        #}
+                                        <th>Nome</th>
+                                        <th>Data</th>
+                                        <th>Status</th>
+                                        <th>Valor do Pedido</th>
+                                        <th>Tipo</th>
+
+                                        <th>Acões</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for pedido in pedidos %}
+                                        <tr>
+                                            {% if pedido.name|length == 1 %}
+                                                <td>Pedido: #000{{ pedido.name }}</td>
+                                            {% elseif pedido.name|length == 2 %}
+                                                <td>Pedido: #00{{ pedido.name }}</td>
+                                            {% elseif pedido.name|length == 3 %}
+                                               <td>Pedido: #0{{ pedido.name }}</td> 
+                                            {% elseif pedido.name|length > 3 %}
+                                                <td>Pedido: #{{ pedido.name }}</td> 
+                                            {% endif %}
+                                            <td>{{ pedido.Dtcreation|date('d-m-Y') }}</td>
+                                            <td>{{ pedido.status }}</td>
+                                            <td>{{ pedido.price }}</td>
+                                            <td>{{ pedido.laboratory.name }}</td>
+                                            <td>
+                                                {% if is_granted("ROLE_SUPER_ADMIN") %}
+                                                    <a href="{{ path('produtos_show_edit',{'id': pedido.id}) }}" class="btn btn-success btn-group">Editar</a>
+                                                {% endif %}
+                                                <a href="{{ path('produtos_show',{'id': pedido.id}) }}" class="btn btn-success btn-group">Ver produtos</a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    <script type="text/javascript">
+        <!--
+        function abreJanela(URL) {
+            location.href = URL; // se for popup utiliza o window.open
+        }
+        //-->
+    </script>
+    {% endjavascripts %}
+{% endblock %}

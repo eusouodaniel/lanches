@@ -1,0 +1,120 @@
+/*
+This CSS resource incorporates links to font software which is
+the valuable copyrighted property of WebType LLC, The Font Bureau,
+and/or their suppliers. You may not
+attempt to copy, install, redistribute, convert, modify or reverse
+engineer this font software. Please contact WebType with any
+questions: http://www.webtype.com
+*/
+
+
+@font-face {
+  font-family: "AntennaCond-Bold";
+  src: url("../font/AntennaCond-Bold.eot");
+  src: url("../font/AntennaCond-Bold.eot?") format("embedded-opentype"),
+       url("../font/AntennaCond-Bold.woff") format("woff"),
+       url("../font/AntennaCond-Bold.ttf") format("truetype"),
+       url("../font/AntennaCond-Bold.svg#AntennaCond-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AntennaCond-Bold";
+  src: url("../font/AntennaCond-BoldItalic.eot");
+  src: url("../font/AntennaCond-BoldItalic.eot?") format("embedded-opentype"),
+       url("../font/AntennaCond-BoldItalic.woff") format("woff"),
+       url("../font/AntennaCond-BoldItalic.ttf") format("truetype"),
+       url("../font/AntennaCond-BoldItalic.svg#AntennaCond-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AntennaCond-Regular";
+  src: url("../font/AntennaCond-Regular.eot");
+  src: url("../font/AntennaCond-Regular.eot?") format("embedded-opentype"),
+       url("../font/AntennaCond-Regular.woff") format("woff"),
+       url("../font/AntennaCond-Regular.ttf") format("truetype"),
+       url("../font/AntennaCond-Regular.svg#AntennaCond-Regular") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AntennaExtraCond-Black";
+  src: url("../font/AntennaExtraCond-Black.eot");
+  src: url("../font/AntennaExtraCond-Black.eot?") format("embedded-opentype"),
+       url("../font/AntennaExtraCond-Black.woff") format("woff"),
+       url("../font/AntennaExtraCond-Black.ttf") format("truetype"),
+       url("../font/AntennaExtraCond-Black.svg#AntennaExtraCond-Black") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AntennaExtraCond";
+  src: url("../font/AntennaExtraCond.eot");
+  src: url("../font/AntennaExtraCond.eot?") format("embedded-opentype"),
+       url("../font/AntennaExtraCond.woff") format("woff"),
+       url("../font/AntennaExtraCond.ttf") format("truetype"),
+       url("../font/AntennaExtraCond.svg#AntennaExtraCond") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Antenna";
+  src: url("../font/Antenna-Light.eot");
+  src: url("../font/Antenna-Light.eot?") format("embedded-opentype"),
+       url("../font/Antenna-Light.woff") format("woff"),
+       url("../font/Antenna-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Antenna-Regular";
+  src: url("../font/Antenna-Regular.eot");
+  src: url("../font/Antenna-Regular.eot?") format("embedded-opentype"),
+       url("../font/Antenna-Regular.woff") format("woff"),
+       url("../font/Antenna-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Antenna";
+  src: url("../font/Antenna-Medium.eot");
+  src: url("../font/Antenna-Medium.eot?") format("embedded-opentype"),
+       url("../font/Antenna-Medium.woff") format("woff"),
+       url("../font/Antenna-Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AntennaCond-Light";
+  src: url("../font/AntennaCond-Light.eot");
+  src: url("../font/AntennaCond-Light.eot?") format("embedded-opentype"),
+       url("../font/AntennaCond-Light.woff") format("woff"),
+       url("../font/AntennaCond-Light.ttf") format("truetype"),
+       url("../font/AntennaCond-Light.svg#AntennaCond-Light") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AntennaExtraCond-Light";
+  src: url("../font/AntennaExtraCond-Light.eot");
+  src: url("../font/AntennaExtraCond-Light.eot?") format("embedded-opentype"),
+       url("../font/AntennaExtraCond-Light.woff") format("woff"),
+       url("../font/AntennaExtraCond-Light.ttf") format("truetype"),
+       url("../font/AntennaExtraCond-Light.svg#AntennaCond-Light") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,72 @@
+{% extends '::Backend/base.html.twig' %}
+
+{% block body %}
+    <aside class="right-side">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>Pedido ({% if pedido.name|length == 1 %}
+                                                <td>#000{{ pedido.name }}</td>
+                                            {% elseif pedido.name|length == 2 %}
+                                                <td>#00{{ pedido.name }}</td>
+                                            {% elseif pedido.name|length == 3 %}
+                                               <td>#0{{ pedido.name }}</td> 
+                                            {% elseif pedido.name|length > 3 %}
+                                                <td>#{{ pedido.name }}</td> 
+                                            {% endif %})</h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Listagem de produtos - Valor total: R${{ pedido.price }}</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        {#
+                                        <th>
+                                            <input type="checkbox" name="" id="check-all"/>
+                                        </th>
+                                        #}
+                                        <th>Produtos</th>
+                                        <th>Quantidade</th>
+                                        <th>Preço sem desconto</th>
+                                        <th>Desconto</th>
+                                        <th>Preço final</th>
+                                        <th>Tipo</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        {% for conteudo in conteudos %}
+                                            <tr>
+                                                <td>{{ conteudo.product.product.name }}</td>
+                                                <td>{{ conteudo.quantidade }}</td>
+                                                <td>{{ conteudo.product.factoryValue }}</td>
+                                                <td>{{ conteudo.product.discountValue }}</td>
+                                                <td>{{ conteudo.product.costValue }}</td>
+                                                <td>{{ conteudo.laboratory.name }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section><!-- /.content -->
+    </aside><!-- /.right-side -->
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts filter='?uglifyjs2'
+        '@AppBundle/Resources/public/js/custom/Product/list.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

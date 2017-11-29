@@ -1,0 +1,101 @@
+{{ form_widget(form.avatar) }}
+<div class="box-body">
+    <div class="form-group">
+        {{ form_errors(form.name) }}
+        <label for="laboratory_name">Nome</label>
+        {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {{ form_errors(form.avatarTemp) }}
+            <label for="laboratory_avatarTemp">Imagem(<b>Tamanho aceito: 75 x 75</b>)</label>
+            {{ form_widget(form.avatarTemp, {'attr': {'class': 'form-control'}}) }}
+
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {% if laboratory.avatar != null %}
+                <img src="/sistema/web/uploads/laboratory/avatar/{{laboratory.avatar}}" class="img-responsive center-img imgproduct" alt="{{ laboratory.avatar }}" title="{{ laboratory.avatar }}">
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            {{ form_errors(form.minimunValue) }}
+            <label for="laboratory_minimunValue">Valor mínimo</label>
+            {{ form_widget(form.minimunValue, {'attr': {'class': 'form-control money'}}) }}
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+            
+                {{ form_errors(form.active) }}
+                <div class="checkboxFive">
+                                {{ form_widget(form.active, {'attr': {'class': 'form-control', 'id': 'laboratory_active'}}) }}
+
+                    <label for="laboratory_active"></label>
+                    <span class="title-label" style="
+    position: relative;
+    margin-left: 51px;
+    top: -32px;">Ativo</span>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <label for="">Prioridades de Distribuidor</label>
+        </div>
+        <div class="col-sm-4 form-group">
+            {{ form_errors(form.firstDistributor) }}
+            <label for="laboratory_firstDistributor">Primeiro Distribuidor</label>
+            {{ form_widget(form.firstDistributor, {'attr': {'class': 'select2 form-control'}}) }}
+        </div>
+        <div class="col-sm-4 form-group">
+            {{ form_errors(form.secondDistributor) }}
+            <label for="laboratory_secondDistributor">Segundo Distribuidor</label>
+            {{ form_widget(form.secondDistributor, {'attr': {'class': 'select2 form-control'}}) }}
+        </div>
+        <div class="col-sm-4 form-group">
+            {{ form_errors(form.thirdDistributor) }}
+            <label for="laboratory_thirdDistributor">Terceiro Distribuidor</label>
+            {{ form_widget(form.thirdDistributor, {'attr': {'class': 'select2 form-control'}}) }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 form-group">
+            {{ form_errors(form.billingRequirements) }}
+            <label for="laboratory_billingRequirements">Requisitos para Faturamento</label>
+            {{ form_widget(form.billingRequirements, {'attr': {'class': 'form-control'}}) }}
+        </div>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+        <label for="laboratory_laboratoryagents">Representante de Vendas</label>
+
+        <table id="agents-table" class="table table-bordered table-striped" data-prototype="{{ _self.prototype_laboratoryagents(form.laboratoryagents.vars.prototype)|e }}" data-index-count="0">
+            {% macro prototype_laboratoryagents(laboratoryagent) %}
+                <tr class="agents-item">
+                    <td>
+                        <a style="margin-top: 0 !important;" class="confirm-delete agents-remove-item  btn btn-danger btn-sm" href="javascript:void(0);" data-confirm-title="Botão Delete" data-confirm-text="Confirma Deleção">
+                            <i class="icon-trash">Deletar</i>
+                        </a>
+                    </td>
+                    <td>
+                        {{ form_errors(laboratoryagent.agent) }}
+                        {{ form_widget(laboratoryagent.agent, {'attr':{'class':'select2 agent'}}) }}
+                    </td>
+                </tr>
+            {% endmacro %}
+            <tbody>
+                {% for laboratoryagent in form.laboratoryagents %}
+                    {{_self.prototype_laboratoryagents(laboratoryagent)}}
+                {% else %}
+                    {% do form.laboratoryagents.setRendered %}
+                {% endfor %}
+            </tbody>
+        </table>
+        <br>
+        <section class="btn-container glow1"><a id="agents-add" href="javascript:void(0);" class="btn btn-info btn-add pull-right" title="Botão adicionar">Adicionar</a></section>
+    </div>
+</div><!-- /.box-body -->

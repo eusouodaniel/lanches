@@ -1,0 +1,11 @@
+<div class="box-body">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                {{ form_errors(form.name) }}
+                <label for="parcelamento_name">Nome</label>
+                {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+    </div>
+</div><!-- /.box-body -->
